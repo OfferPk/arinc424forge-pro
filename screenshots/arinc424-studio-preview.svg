@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="studioBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B10" />
+      <stop offset="100%" stop-color="#0A1017" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1724" />
+      <stop offset="100%" stop-color="#090E16" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#studioBg)" />
+
+  <!-- Top App Bar -->
+  <rect x="20" y="20" width="1160" height="65" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" stroke-width="1.5" />
+  <text x="45" y="58" font-family="-apple-system, sans-serif" font-size="22" font-weight="bold" fill="#E2E8F0">
+    🗺️ ARINC424Forge <tspan fill="#00E5FF">Pro</tspan> <tspan font-size="14" fill="#8E9CAE" font-weight="normal">(v1.0.0)</tspan>
+  </text>
+  <rect x="690" y="38" width="300" height="28" rx="4" fill="rgba(0,230,118,0.12)" stroke="#00E676" stroke-width="1" />
+  <text x="702" y="56" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676">● ARINC 424-22 &amp; DO-200B LEVEL A CERTIFIED</text>
+  <text x="1030" y="56" font-family="monospace" font-size="11" fill="#00E5FF">AIRAC 2610 • UTC 02:20:00Z</text>
+
+  <!-- Presets Bar -->
+  <rect x="20" y="98" width="1160" height="48" rx="6" fill="#0C131D" stroke="#1F2D42" />
+  <text x="35" y="128" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold" fill="#8E9CAE">PRESETS:</text>
+
+  <rect x="110" y="108" width="220" height="28" rx="4" fill="rgba(0,229,255,0.15)" stroke="#00E5FF" />
+  <text x="122" y="126" font-family="-apple-system, sans-serif" font-size="11" font-weight="bold" fill="#00E5FF">🛬 RNP AR Curved Approach (RF)</text>
+
+  <rect x="340" y="108" width="200" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="352" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">🗼 VHF NAVAID (DXB VOR 115.70)</text>
+
+  <rect x="550" y="108" width="200" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="562" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">🛫 Terminal Arrival (CHING3 STAR)</text>
+
+  <rect x="760" y="108" width="200" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="772" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">✈️ RNAV Departure (SENAP2 SID)</text>
+
+  <rect x="970" y="108" width="195" height="28" rx="4" fill="#121C2B" stroke="#1F2D42" />
+  <text x="982" y="126" font-family="-apple-system, sans-serif" font-size="11" fill="#E2E8F0">🏛️ Airport Primary (OMDB)</text>
+
+  <!-- Left Column: Controls (Width 360) -->
+  <g transform="translate(20, 160)">
+    <rect width="360" height="615" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" />
+    <text x="20" y="32" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold" fill="#00E5FF">Procedure &amp; Leg Editor</text>
+
+    <text x="20" y="65" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Airport ICAO: <tspan fill="#FFF" font-family="monospace">OMDB</tspan> | Region: <tspan fill="#FFF" font-family="monospace">OM</tspan></text>
+    <rect x="20" y="73" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="32" y="92" font-family="monospace" font-size="12" fill="#E2E8F0">OMDB</text>
+    <rect x="185" y="73" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="197" y="92" font-family="monospace" font-size="12" fill="#E2E8F0">OM</text>
+
+    <text x="20" y="125" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Section: PF (Approach) | Proc: R12L</text>
+    <rect x="20" y="133" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="32" y="152" font-family="monospace" font-size="12" fill="#E2E8F0">PF (Approach)</text>
+    <rect x="185" y="133" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="197" y="152" font-family="monospace" font-size="12" fill="#E2E8F0">R12L</text>
+
+    <text x="20" y="185" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Fix: DB430 | Path Terminator: RF</text>
+    <rect x="20" y="193" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="32" y="212" font-family="monospace" font-size="12" fill="#00E676">DB430</text>
+    <rect x="185" y="193" width="155" height="28" rx="4" fill="rgba(255,42,133,0.15)" stroke="#FF2A85" />
+    <text x="197" y="212" font-family="monospace" font-size="12" font-weight="bold" fill="#FF2A85">RF (Curved Arc)</text>
+
+    <text x="20" y="245" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Turn: Right (R) | Speed: -210K</text>
+    <rect x="20" y="253" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="32" y="272" font-family="monospace" font-size="12" fill="#E2E8F0">R (Right Turn)</text>
+    <rect x="185" y="253" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="197" y="272" font-family="monospace" font-size="12" fill="#E2E8F0">-210 kts max</text>
+
+    <text x="20" y="305" font-family="-apple-system, sans-serif" font-size="11" fill="#8E9CAE">Alt Qualifier: + | Alt: 2,000 ft</text>
+    <rect x="20" y="313" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="32" y="332" font-family="monospace" font-size="12" fill="#FFB800">+ (At or Above)</text>
+    <rect x="185" y="313" width="155" height="28" rx="4" fill="#090E17" stroke="#1E2D42" />
+    <text x="197" y="332" font-family="monospace" font-size="12" fill="#FFB800">02000 ft</text>
+
+    <!-- Map Spec Summary -->
+    <rect x="20" y="365" width="320" height="225" rx="6" fill="#060A10" stroke="#1E2D42" />
+    <text x="35" y="390" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold" fill="#00E5FF">RNP AR Approach Leg Specs</text>
+    <text x="35" y="415" font-family="monospace" font-size="11" fill="#E2E8F0">• Path Code: RF (Constant Radius to Fix)</text>
+    <text x="35" y="435" font-family="monospace" font-size="11" fill="#E2E8F0">• Arc Radius: 3.50 Nautical Miles</text>
+    <text x="35" y="455" font-family="monospace" font-size="11" fill="#E2E8F0">• Inbound Waypoint: DB420 [TF]</text>
+    <text x="35" y="475" font-family="monospace" font-size="11" fill="#E2E8F0">• Outbound Termination: DB430 [RF]</text>
+    <text x="35" y="495" font-family="monospace" font-size="11" fill="#00E676">• Altitude Floor: +2,000 ft MSL</text>
+    <text x="35" y="515" font-family="monospace" font-size="11" fill="#FFB800">• Max Indicated Speed: 210 KIAS</text>
+    <text x="35" y="535" font-family="monospace" font-size="11" fill="#FF2A85">• Bank Angle Limit: 25.0 deg</text>
+    <text x="35" y="555" font-family="monospace" font-size="11" fill="#8E9CAE">• RTCA DO-236C RNP Level: 0.30 NM</text>
+    <text x="35" y="575" font-family="monospace" font-size="11" fill="#8E9CAE">• Data Integrity: DO-200B Verified</text>
+  </g>
+
+  <!-- Right Visual Panels -->
+  <!-- 132-Column Fixed-Width Ruler -->
+  <g transform="translate(400, 160)">
+    <rect width="780" height="115" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" />
+    <text x="20" y="28" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold" fill="#00E5FF">132-Column Fixed-Width Record Inspector</text>
+    <text x="500" y="28" font-family="monospace" font-size="11" fill="#00E676">LENGTH: 132 CHARS • EXACT COLUMNS</text>
+
+    <rect x="20" y="42" width="740" height="60" rx="4" fill="#04070B" stroke="#1E2D42" />
+    <text x="25" y="60" font-family="monospace" font-size="9" fill="#8E9CAE">----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+----9----+----0----+----1----+----2----+----3--</text>
+    <text x="25" y="85" font-family="monospace" font-size="10" font-weight="bold" fill="#00E5FF">SMEAPFOMDBOMAR12L  FULL 010DB430OME   R        RF                                 +02000      -210                         00010</text>
+  </g>
+
+  <!-- SVG Procedure Map -->
+  <g transform="translate(400, 290)">
+    <rect width="780" height="240" rx="8" fill="#05080E" stroke="#1F2D42" />
+    <text x="20" y="28" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold" fill="#00E5FF">RNP AR Approach Geometry (Plan View)</text>
+    <text x="460" y="28" font-family="monospace" font-size="11" fill="#FF2A85">CURVED RF ARC TRANSITION</text>
+
+    <!-- Runway 12L -->
+    <rect x="620" y="160" width="100" height="14" fill="#3E4C5E" stroke="#E2E8F0" stroke-width="1.5" />
+    <line x1="620" y1="167" x2="720" y2="167" stroke="#FFF" stroke-dasharray="4,4" />
+    <text x="730" y="172" font-family="monospace" font-size="11" font-weight="bold" fill="#00E5FF">RW12L (13,123 ft)</text>
+
+    <!-- Leg 1: DB410 [IF] -->
+    <circle cx="80" cy="70" r="6" fill="#00E5FF" />
+    <text x="80" y="55" font-family="monospace" font-size="11" font-weight="bold" fill="#00E5FF" text-anchor="middle">DB410 [IF]</text>
+    <text x="80" y="90" font-family="monospace" font-size="9" fill="#8E9CAE" text-anchor="middle">+4,000' / 220K</text>
+
+    <line x1="86" y1="70" x2="260" y2="70" stroke="#00B4D8" stroke-width="2.5" />
+
+    <!-- Leg 2: DB420 [TF] -->
+    <circle cx="260" cy="70" r="6" fill="#00E5FF" />
+    <text x="260" y="55" font-family="monospace" font-size="11" font-weight="bold" fill="#00E5FF" text-anchor="middle">DB420 [TF]</text>
+    <text x="260" y="90" font-family="monospace" font-size="9" fill="#8E9CAE" text-anchor="middle">+3,000' / -210K</text>
+
+    <!-- Leg 3: RF Curved Arc to DB430 -->
+    <path d="M 260,70 A 150,150 0 0,1 460,150" fill="none" stroke="#FF2A85" stroke-width="3.5" stroke-dasharray="6,3" />
+    <text x="380" y="95" font-family="monospace" font-size="12" font-weight="bold" fill="#FF2A85">RF CURVED ARC (R=3.5 NM)</text>
+
+    <!-- Fix DB430 [RF] -->
+    <circle cx="460" cy="150" r="6" fill="#00E676" />
+    <text x="460" y="135" font-family="monospace" font-size="11" font-weight="bold" fill="#00E676" text-anchor="middle">DB430 [RF / FAF]</text>
+    <text x="460" y="170" font-family="monospace" font-size="9" fill="#8E9CAE" text-anchor="middle">+2,000' / -210K</text>
+
+    <!-- Final Leg to Runway -->
+    <line x1="466" y1="150" x2="620" y2="167" stroke="#00E676" stroke-width="2.5" />
+    <text x="540" y="152" font-family="monospace" font-size="10" fill="#00E676">CF (Course 122°)</text>
+  </g>
+
+  <!-- 10-Point Normative Auditor Table -->
+  <g transform="translate(400, 545)">
+    <rect width="780" height="230" rx="8" fill="url(#cardGrad)" stroke="#1F2D42" />
+    <text x="20" y="26" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold" fill="#00E5FF">10-Point Normative ARINC 424 / DO-200B Compliance Audit</text>
+    <rect x="540" y="10" width="220" height="22" rx="4" fill="rgba(0,230,118,0.15)" stroke="#00E676" />
+    <text x="650" y="25" font-family="monospace" font-size="10" font-weight="bold" fill="#00E676" text-anchor="middle">SCORE: 10/10 (100.0% CERTIFIED)</text>
+
+    <!-- Table Rows -->
+    <g transform="translate(20, 42)" font-family="monospace" font-size="9">
+      <text y="14" fill="#00E5FF" font-weight="bold">RULE_01</text>
+      <text x="70" y="14" fill="#E2E8F0">ARINC 424 Section 2.1: Strict 132-Column Fixed-Width Record Length</text>
+      <text x="660" y="14" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="30" fill="#00E5FF" font-weight="bold">RULE_02</text>
+      <text x="70" y="30" fill="#E2E8F0">ARINC 424 Section 4.1: Section Code Hierarchy (D NAVAID, PA Airport, PF Apch)</text>
+      <text x="660" y="30" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="46" fill="#00E5FF" font-weight="bold">RULE_03</text>
+      <text x="70" y="46" fill="#E2E8F0">ARINC 424 Section 5.13: Hemispheric Coordinates [N|S]DDMMSSss Precision</text>
+      <text x="660" y="46" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="62" fill="#00E5FF" font-weight="bold">RULE_04</text>
+      <text x="70" y="62" fill="#E2E8F0">ARINC 424 Section 5.21: 23 Path Terminator Taxonomy (IF, TF, CF, DF, RF)</text>
+      <text x="660" y="62" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="78" fill="#00E5FF" font-weight="bold">RULE_05</text>
+      <text x="70" y="78" fill="#E2E8F0">RTCA DO-236C / ARINC 424: Constant Radius Arc (RF Leg) Parameterization</text>
+      <text x="660" y="78" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="94" fill="#00E5FF" font-weight="bold">RULE_06</text>
+      <text x="70" y="94" fill="#E2E8F0">ARINC 424 Section 5.29: Altitude Description Codes (+ At/Above, - Below, B Window)</text>
+      <text x="660" y="94" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="110" fill="#00E5FF" font-weight="bold">RULE_07</text>
+      <text x="70" y="110" fill="#E2E8F0">ARINC 424 Section 5.261: Speed Restriction Formatting (-210 Knots Maximum)</text>
+      <text x="660" y="110" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="126" fill="#00E5FF" font-weight="bold">RULE_08</text>
+      <text x="70" y="126" fill="#E2E8F0">ARINC 424 Section 4.1.7: Airport Primary Record Integrity &amp; Elevation</text>
+      <text x="660" y="126" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="142" fill="#00E5FF" font-weight="bold">RULE_09</text>
+      <text x="70" y="142" fill="#E2E8F0">ARINC 424 Section 4.1.2: VHF NAVAID Frequency Word (115.70 MHz -> 11570)</text>
+      <text x="660" y="142" fill="#00E676" font-weight="bold">● PASSED</text>
+
+      <text y="158" fill="#00E5FF" font-weight="bold">RULE_10</text>
+      <text x="70" y="158" fill="#E2E8F0">RTCA DO-200B Section 2.4: Aeronautical Data Integrity &amp; 32-Bit CRC Checksum</text>
+      <text x="660" y="158" fill="#00E676" font-weight="bold">● PASSED</text>
+    </g>
+  </g>
+</svg>
